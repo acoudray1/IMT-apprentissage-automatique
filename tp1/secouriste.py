@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Chargement des donnees
-df = pd.read_csv("titanic.csv", sep=';')
+df = pd.read_csv("assets/titanic.csv", sep=';')
 
 # Extraction des colonnes pertinentes et convertion des chaines de caracteres en entier
 df = df[["poids", "taille"]]
